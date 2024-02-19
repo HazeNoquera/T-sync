@@ -13,8 +13,8 @@
 <img src = "{{('logo.png')}}" class  =" ">
  </div>
       <ul class="nav__links">
-        <li class="link"><a href="#">Log In</a></li>
-        <li class="link"><a href="#" class="nav__btn">Sign Up</a></li>
+        <li class="link"><a href="login">Log In</a></li>
+        <li class="link"><a href="login" class="nav__btn">Sign Up</a></li>
       </ul>
     </nav>
     <section class="container">
@@ -30,7 +30,7 @@
          seamless communication, and collaborative teamwork.
         </p>
 </div>
-        <div class="image__container">
+        <div class="image__container" style="margin-top: 100px;">
         <img src="image 1.png" alt="header" />
         </div>
     </section>
