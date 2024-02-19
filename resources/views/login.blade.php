@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign in & Sign up Form</title>
-    <link rel="stylesheet" href="style.css" />
+   
   </head>
   <body>
     <main>
@@ -49,7 +49,7 @@
                 <input type="submit" value="Log In" class="sign-btn" />
 
                 <p class="text">
-                  Forgotten your password or you login datails?
+                  Forgot your password or you login datails?
                   <a href="#">Get help</a> signing in
                 </p>
               </div>
@@ -112,15 +112,15 @@
 
           <div class="carousel">
             <div class="images-wrapper">
-              <img src="./img/Cimage1.png" class="image img-1 show" alt="" />
-              <img src="./img/Cimage2.png" class="image img-2" alt="" />
-              <img src="./img/Cimage3.png" class="image img-3" alt="" />
+              <img src="Cimage1.png" style="width: 550px; height:450px; "class="image img-1 show" alt="" />
+              <img src="Cimage2.png" style="width: 550px; height:450px; margin: -40px; margin-left:20px"class="image img-2" alt="" />
+              <img src="Cimage3.png" class="image img-3" alt="" />
             </div>
 
             <div class="text-slider">
               <div class="text-wrap">
                 <div class="text-group">
-                  <h2>Choose your on adventure</h2>
+                  <h2>Choose your own adventure</h2>
                   <h2>Customize as you like</h2>
                   <h2>This goal is on track.</h2>
                 </div>

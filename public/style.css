@@ -236,6 +236,7 @@ main.sign-up-mode .carousel {
 
 .img-1 {
   transform: translate(0, -50px);
+  
 }
 
 .img-2 {
@@ -270,6 +271,8 @@ main.sign-up-mode .carousel {
   text-align: center;
   transform: translateY(0);
   transition: 0.5s;
+  margin-top: -10px;
+  margin-bottom: -5px;
 }
 
 .text-group h2 {
@@ -296,7 +299,7 @@ main.sign-up-mode .carousel {
 }
 
 .bullets span.active {
-  width: 1.1rem;
+  width: 1rem;
   background-color: #151111;
   border-radius: 1rem;
 }
