@@ -20,6 +20,7 @@
 <img src = "{{('logo.png')}}" class  =" ">
  </div>
       <ul class="nav__links">
+        <li class="link"><a href="#"></a></li>
         <li class="link"><a id="LoginButton" class="nav__btn">Log In</a></li>
       </ul>
     </nav>
@@ -159,8 +160,8 @@
 
           <div class="carousel">
             <div class="images-wrapper">
-              <img src="Cimage1.png"  style="width: 550px; height:450px; "class="image img-1 show" alt="" />
-              <img src="Cimage2.png" style="width: 550px; height:450px; margin: -40px; margin-left:20px"class="image img-2" alt="" />
+              <img src="Cimage1.png" class="image img-1 show" alt="" />
+              <img src="Cimage2.png" class="image img-2" alt="" />
               <img src="Cimage3.png" class="image img-3" alt="" />
             </div>
 
