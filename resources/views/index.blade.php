@@ -23,7 +23,7 @@
    <link href="assets/css/main.css" rel="stylesheet">
     <title>T-Sync</title>
   </head>
-  <body>
+  <body >
     <header class= "header d-flex fixed-top " style="background-color:#fff; height: 55px; box-shadow: 0 8px 6px -6px #d1d9f7;"  >
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between" style="margin-top:10px;">
     <div class = "nav_logo">
@@ -36,7 +36,7 @@
 </div>
 </header>
     <section class="_container">
-      <div class="content__container">
+      <div class="content__container " style="width: 600px;">
         <h1>
         Streamline Workflows,<br />
           <span class="heading__1">Enhance Communication,</span><br />
@@ -49,7 +49,7 @@
         </p>
         </div>
 
-        <div style="display:flex; margin-top:15%">
+        <div style="display:flex; margin-top:15%; margin-left:-10%;">
         <div class="container_image " style="text-align: center;">
         
         <img src="Handshake.png" class = "image__container" style="margin-bottom:-25px"   alt="header"   class = "image"/>
@@ -69,8 +69,9 @@
                 aria-hidden="true" style="max-height: 100vh; overflow-y: hidden;">
 
                 <div class="modal-dialog modal-xl modal-dialog-centered" style="width:950px;">
+                <main>
                     <div class="modal-content">
-                    <main>
+                   
                     <div class="box">
         <div class="inner-box">
           <div class="forms-wrap">
@@ -195,8 +196,9 @@
               </div>
             </div>
           </div>
-</main>
+
         </div>
+        </main>
       </div>
 </div>
     
