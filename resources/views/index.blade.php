@@ -11,7 +11,6 @@
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <!-- Vendor CSS Files -->
@@ -48,23 +47,23 @@
          a robust Project Management System designed to meet the demands of efficient task management, 
          seamless communication, and collaborative teamwork.
         </p>
-</div>
+        </div>
 
-<div style="display:flex; margin-top:15%">
+        <div style="display:flex; margin-top:15%">
         <div class="container_image " style="text-align: center;">
         
         <img src="Handshake.png" class = "image__container" style="margin-bottom:-25px"   alt="header"   class = "image"/>
         <img src="search.png"  class = "image__container" alt="header" style="margin-bottom: -25px" class = "image"/>
-        <H3>TEAMWORK</H3>
+        <H5 style="padding-top: 15px; margin-bottom:-5px;">TEAMWORK</H5>
         <img src="bulb.png"  class = "image__container" alt="header"  class = "image"/>
         <img src="settings.png"  class = "image__container" alt="header"  class = "image"/>
         </div> 
 
-  <img src="background.png"  class = "image__container" style="height: 350px; width: 450px;  display: grid; margin-left:-10%;
+  <img src="background.png"  class = "" style="height: 350px; width: 450px;  display: grid; margin-left:-4%;
  justify-content: end; margin-top:10%" alt="header"  class = "image"/> 
 </div>
         </div>
-</div>
+</section>
  
         <div class="modal fade bd-example-modal-xl"  id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
                 aria-hidden="true" style="max-height: 100vh; overflow-y: hidden;">
@@ -208,7 +207,7 @@
                     </div>
                  </div>
 </div>
-</section>
+
        <!-- ======= Footer ======= -->
        <footer id="footer" class="footer" style="background:#9c9a9a;">
 
