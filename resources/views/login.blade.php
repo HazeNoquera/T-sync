@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign in & Sign up Form</title>
    
@@ -10,6 +12,7 @@
   <body>
     <main>
       <div class="box">
+        
         <div class="inner-box">
           <div class="forms-wrap">
             <form action="index.html" autocomplete="off" class="sign-in-form">
@@ -63,7 +66,7 @@
               <div class="heading">
                 <h2>Get Started</h2>
                 <h6>Already have an account?</h6>
-                <a href="#" class="toggle">Log in</a>
+                <a href="#" id="#sign_up"class="toggle">Log in</a>
               </div>
 
               <div class="actual-form">

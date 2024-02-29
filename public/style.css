@@ -17,8 +17,7 @@ main {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background-color: #d1d9f7;
-  padding: 2rem;
+  background-color:none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -355,6 +354,8 @@ main.sign-up-mode .carousel {
     display: flex;
   }
 
+  
+  
   .images-wrapper {
     display: none;
   }
