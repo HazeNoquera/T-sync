@@ -14,12 +14,10 @@ input {
 }
 
 main {
-  width: 100%;
-  min-height: 100vh;
   overflow: hidden;
   background-color:none;
   display: flex;
-  align-items: center;
+  align-items: center; 
   justify-content: center;
 }
 
@@ -204,103 +202,86 @@ main.sign-up-mode .carousel {
   left: 0%;
 }
 
-.carousel {
-  position: absolute;
-  height: 100%;
-  width: 55%;
-  left: 45%;
-  top: 0;
-  background-color: #d1d9f7;
-  border-radius: 2rem;
-  display: grid;
-  grid-template-rows: auto 1fr;
-  padding-bottom: 2rem;
-  overflow: hidden;
-  transition: 0.8s ease-in-out;
-}
 
-.images-wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-}
+  /* position and height ng  mismong carousel */
+  .carousel-item {
+    height: 34rem;
+    justify-content: center;
+  }
+  .carousel-indicators button {
+    width: 0.4rem; /*change rin w and h sa .active pati not active*/
+    height: 0.4rem; /*change rin w and h sa .active pati not active*/
+    border-radius:50%;
+    background-color: #04364A; 
+    opacity: 0.75;
+    transition: opacity ease 250ms; 
+    border: 0.5rem;
+  }
 
-.image {
-  width: 100%;
-  grid-column: 1/2;
-  grid-row: 1/2;
-  opacity: 0;
-  transition: opacity 0.3s, transform 0.5s;
-}
+  .carousel-indicators .active {
+    justify-content: center;
+    background-color: #04364A; 
+    border-color: #04364A; 
+    border: 5rem;
+    border-radius:50%;
+    width: 0.4rem; /*change rin w and h sa .active pati not active*/
+    height: 0.4rem; /*change rin w and h sa .active pati not active*/
+  }
+  .carousel-indicators button:not(.active) {
+    background-color: #04364A; 
+    border-color: #04364A;
+    border: 5rem;
+    border-radius:50%;
+    width: 0.4rem; /*change rin w and h sa .active pati not active*/
+    height: 0.4rem; /*change rin w and h sa .active pati not active*/
 
-.img-1 {
-  transform: translate(0, -50px);
-  
-}
+  }
+  .custom1{
+    font-family: 'Poppins';
+    text-align: center;
+    transform: translate(48%, 8%);
+    color: #04364A;
+   }
+   .custom1 p{
+    font-family: 'sans-serif';
+    transform: translate(25%, 8%);
+    font-size: large;
 
-.img-2 {
-  transform: scale(0.4, 0.5);
+   }
+   .carousel-item .custom-img1 {
+    transform: translate(-70%, -60%);
 }
+.special{
 
-.img-3 {
-  transform: scale(0.3) rotate(-20deg);
 }
-
-.image.show {
-  opacity: 1;
-  transform: none;
-}
-
-.text-slider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.text-wrap {
-  max-height: 2.2rem;
-  overflow: hidden;
-  margin-bottom: 2.5rem;
-}
-
-.text-group {
-  display: flex;
-  flex-direction: column;
+/*pangalawa*/
+.custom2{
+  font-family: 'Poppins';
   text-align: center;
-  transform: translateY(0);
-  transition: 0.5s;
-  margin-top: -10px;
-  margin-bottom: -5px;
-}
 
-.text-group h2 {
-  line-height: 2.2rem;
-  font-weight: 600;
-  font-size: 1.6rem;
+ }
+ .custom2 p{
+  font-family: 'sans-serif';
+  transform: translate(22%, 1%);
+ }
+ .carousel-item .custom-img2 {
+  transform: translate(-64%, -63%);
+ 
 }
+/*pangatlo*/
+  .custom3{
+    font-family: 'Poppins';
+    text-align: center;
 
-.bullets {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+   }
+   .custom3 p{
+    font-family: 'sans-serif';
 
-.bullets span {
-  display: block;
-  width: 0.5rem;
-  height: 0.5rem;
-  background-color: #aaa;
-  margin: 0 0.25rem;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: 0.3s;
-}
+    transform: translate(26%, 8%);
+   }
+   .carousel-item .custom-img3 {
+    transform: translate(60%, 60%);
 
-.bullets span.active {
-  width: 1rem;
-  background-color: #151111;
-  border-radius: 1rem;
 }
 
 @media (max-width: 850px) {

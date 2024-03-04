@@ -64,14 +64,14 @@
 </div>
         </div>
 </section>
- 
+
         <div class="modal fade bd-example-modal-xl"  id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
                 aria-hidden="true" style="max-height: 100vh; overflow-y: hidden;">
-
-                <div class="modal-dialog modal-xl modal-dialog-centered" style="width:950px;">
-                <main>
+                <main style="background:none;">
+                <div class="modal-dialog modal-xl modal-dialog-centere" style="width:950px;">
+               
                     <div class="modal-content">
-                   
+                  
                     <div class="box">
         <div class="inner-box">
           <div class="forms-wrap">
@@ -173,29 +173,54 @@
             </form>
           </div>
 
-          <div class="carousel">
-            <div class="images-wrapper">
-              <img src="Cimage1.png" class="image img-1 show" alt="" />
-              <img src="Cimage2.png" class="image img-2" alt="" />
-              <img src="Cimage3.png" class="image img-3" alt="" />
+           <!-- carousel slide interval and disables the automatic pause ng carousel -->
+           <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
+            data-bs-pause="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
 
-            <div class="text-slider">
-              <div class="text-wrap">
-                <div class="text-group">
-                  <h2>Choose your own adventure</h2>
-                  <h2>Customize as you like</h2>
-                  <h2>This goal is on track.</h2>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row featurette">
+                        <div class="col-md-12 text-center">
+                        
+                            <img src="{{ asset('Cimage1.png') }}" alt="first-img"  style="  margin-top: 10%;
+  height: 450px;width:500px;"
+                                class="">
+                                <p style="font-weight: 800; font-size:large;">Choose your own adventure</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-
-              <div class="bullets">
-                <span class="active" data-value="1"></span>
-                <span data-value="2"></span>
-                <span data-value="3"></span>
-              </div>
+                <div class="carousel-item">
+                    <div class="row featurette">
+                        <div class="col-md-12 text-center">
+                            <img src="{{ asset('Cimage2.png') }}" alt="third-img" style="  margin-top: 10%;
+  height: 450px;width:500px;;" 
+                                class="d-block ">
+                                <p style="font-weight: 800; font-size:large;">Customize as you like</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row featurette">
+                        <div class="col-md-12 text-center">
+                            <img src="{{ asset('Cimage3.png') }}" alt="third-img"style="  margin-top: 10%;
+  height: 450px;
+  width:500px;"
+                                class="d-block">
+                                <p style="font-weight: 800; font-size:large;">This goal is on track.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+</div>
+
 
         </div>
         </main>
