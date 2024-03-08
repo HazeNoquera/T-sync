@@ -211,13 +211,13 @@ main.sign-up-mode .carousel {
   width: 55%;
   left: 45%;
   top: 0;
-  background-color: #d1d9f7;
+  background: #d1d9f7;
   border-radius: 2rem;
   display: grid;
   grid-template-rows: auto 1fr;
   padding-bottom: 2rem;
   overflow: hidden;
-  transition: 0.8s ease-in-out;
+
 }
 
 .images-wrapper {
@@ -281,28 +281,87 @@ main.sign-up-mode .carousel {
   font-size: 1.6rem;
 }
 
-.bullets {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* position and height ng  mismong carousel */
+  .carousel-item {
+    height: 34rem;
+    justify-content: center;
+    transition: 0.8s ease-in-out;
+  }
+  .carousel-indicators button {
+    width: 0.4rem; /*change rin w and h sa .active pati not active*/
+    height: 0.4rem; /*change rin w and h sa .active pati not active*/
+    border-radius:50%;
+    background-color: #04364A; 
+    opacity: 0.75;
+    transition: opacity ease 250ms; 
+    border: 0.5rem;
+  }
+
+  .carousel-indicators .active {
+    justify-content: center;
+    background-color: #04364A; 
+    border-color: #04364A; 
+    border: 5rem;
+    border-radius:50%;
+    width: 0.4rem; /*change rin w and h sa .active pati not active*/
+    height: 0.4rem; /*change rin w and h sa .active pati not active*/
+  }
+  .carousel-indicators button:not(.active) {
+    background-color: #04364A; 
+    border-color: #04364A;
+    width: 20px;
+    border: 5rem;
+    border-radius:50%;
+    width: 0.4rem; /*change rin w and h sa .active pati not active*/
+    height: 0.4rem; /*change rin w and h sa .active pati not active*/
+
+  }
+  .custom1{
+    font-family: 'Poppins';
+    text-align: center;
+    transform: translate(48%, 8%);
+    color: #04364A;
+   }
+   .custom1 p{
+    font-family: 'sans-serif';
+    transform: translate(25%, 8%);
+    font-size: large;
+
+   }
+   .carousel-item .custom-img1 {
+    transform: translate(-70%, -60%);
+}
+/*pangalawa*/
+.custom2{
+  font-family: 'Poppins';
+  text-align: center;
+
+ }
+ .custom2 p{
+  font-family: 'sans-serif';
+  transform: translate(22%, 1%);
+ }
+ .carousel-item .custom-img2 {
+  transform: translate(-64%, -63%);
+ 
+}
+/*pangatlo*/
+  .custom3{
+    font-family: 'Poppins';
+    text-align: center;
+
+   }
+   .custom3 p{
+    font-family: 'sans-serif';
+
+    transform: translate(26%, 8%);
+   }
+   .carousel-item .custom-img3 {
+    transform: translate(60%, 60%);
+
 }
 
-.bullets span {
-  display: block;
-  width: 0.5rem;
-  height: 0.5rem;
-  background-color: #aaa;
-  margin: 0 0.25rem;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: 0.3s;
-}
 
-.bullets span.active {
-  width: 1rem;
-  background-color: #151111;
-  border-radius: 1rem;
-}
 
 @media (max-width: 850px) {
   .box {

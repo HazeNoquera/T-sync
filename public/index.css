@@ -72,18 +72,25 @@ nav {
 
 .container {
   max-width: var(--max-width);
-  margin: auto;
+  margin-right: 5%;
+  margin-left: 5%;
   padding: 1rem;
   min-height: calc(100vh - 100px);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
 }
 
 .content__container {
   display: flex;
+  height:min-content;
+  margin-top:20%;
+  width: max-content;
   flex-direction: column;
   justify-content: center;
+}
+.content__container p{
+  
+  width: max-content;
 }
 
 .content__container h1 {
@@ -144,13 +151,99 @@ nav {
 }
 .image__container {
   transition: .3s ease;
+  cursor: pointer;
+  display: flex;
   
   }
   .image__container:hover {
     transform: scale(1.3);
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    
+    }
+
+    .image1 input{
+      width: 0;
+      outline: none;
+      border: none;
+      font-weight: 500;
+      background: transparent;
+      position:fixed;
+    }
+
+    .image1:hover input{
+      width: 140px;
+      font-weight: 500;
+      position: absolute;
+      right: 140px;
+      transition: 0.8s;
+      top: 40px;
+      background:#4861ee ;
+      }
+
+    .image2 input{
+      width: 0;
+      outline: none;
+      border: none;
+      font-weight: 500;
+      background: transparent;
+      margin-left: 10px;
+      position:fixed;
+    }
+
+    .image2:hover input{
+      transition: 0.8s;
+      width: 160px;
+      font-weight: 500;
+      position: absolute;
+      left: 120px;
+      transition: 0.8s;
+      top: 40px;
+      background:#4861ee ;
+      }
+
+      
+      .image3 input{
+        width: 0;
+        outline: none;
+        border: none;
+        font-weight: 500;
+        background: transparent;
+        position:fixed;
+      }
+  
+      .image3:hover input{
+        width: 140px;
+        font-weight: 500;
+        position: absolute;
+        right: 140px;
+        transition: 0.8s;
+        top: 40px;
+        background:#4861ee ;
+        }
+
+      .image4 input{
+        width: 0;
+        outline: none;
+        border: none;
+        font-weight: 500;
+        background: transparent;
+        margin-left: 10px;
+        position:fixed;
+      }
+  
+      .image4:hover input{
+        transition: 0.8s;
+        width: 160px;
+        font-weight: 500;
+        position: absolute;
+        left: 125px;
+        transition: 0.8s;
+        top: 50px;
+        background:#4861ee ;
+        }
+
+
+    .secret{
+      transition: .3s ease;
+      cursor: pointer;
     }
   .container_image{
     width: 280px;
@@ -158,7 +251,6 @@ nav {
     margin-right: -50px;
   
   }
-
 
 @media (width < 900px) {
   .link a:not(.nav__btn) {

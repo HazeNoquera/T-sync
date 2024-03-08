@@ -14,6 +14,9 @@
         rel="stylesheet">
     <title>T-Sync</title>
   </head>
+  <style>
+ 
+  </style>
   <body>
     <nav>
     <div class = "nav_logo">
@@ -24,7 +27,7 @@
       </ul>
     </nav>
     <section class="container">
-      <div class="content__container">
+      <div class="content__container" >
         <h1>
         Streamline Workflows,<br />
           <span class="heading__1">Enhance Communication,</span><br />
@@ -32,28 +35,45 @@
         </h1>
         <p>
         Experience the power of T-Sync,
-         a robust Project Management System designed to meet the demands of efficient task management, 
+         a robust Project Management System designed<br> to meet the demands of efficient task management,<br> 
          seamless communication, and collaborative teamwork.
         </p>
 </div>
 
-<div style="display:flex; margin-top:15%">
-        <div class="container_image " style="text-align: center;">
+<div style="display:flex; ">
+        <div class="container_image "  style="width: 600px; height:500px; background: url('background.png'); background-repeat:no-repeat;  background-size: contain;">
+        <div style="margin-top:10%">
+        <div class="row" style="gap: -2px;" >
+        <div class="image__container image1" style="width:fit-content;height:fit-content;margin-right: -10px;">
+        <input type="text" value="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, alias facilis veniam magni velit quod ratione ducimus eaque culpa. Natus." readonly> 
+        <img src="Handshake.png" class = "image__container"    alt="header"   class = "image"/>
         
-        <img src="Handshake.png" class = "image__container" style="margin-bottom:-25px"   alt="header"   class = "image"/>
-        <img src="search.png"  class = "image__container" alt="header" style="margin-bottom: -25px" class = "image"/>
-        <H3>TEAMWORK</H3>
-        <img src="bulb.png"  class = "image__container" alt="header"  class = "image"/>
-        <img src="settings.png"  class = "image__container" alt="header"  class = "image"/>
+        </div>
+        <div class="image__container image2" style="width:fit-content;height:fit-content;margin-left: -10px;">
+        <img src="search.png" class = "image__container"   alt="header"   class = "image"/>
+        <input type="text" value="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, alias facilis veniam magni velit quod ratione ducimus eaque culpa. Natus." readonly> 
+        </div>
+        </div>
+        <H5 style="margin-left: 12%; margin-top:-10px;margin-bottom:10%">TEAMWORK</H5>
+        <div class="row" style="gap: -2px;">
+        <div class="image__container image3" style="width:fit-content;height:fit-content;margin-top:-10%;margin-right: -10px;">
+        <img src="bulb.png" class = "image__container"   alt="header"   class = "image"/>
+        <input type="text" value="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, alias facilis veniam magni velit quod ratione ducimus eaque culpa. Natus." readonly> 
+        </div>
+        <div class="image__container image4" style="width:fit-content;height:fit-content;margin-top:-10%; margin-left: -10px;">
+        <img src="settings.png" class = "image__container"   alt="header"   class = "image"/>
+        <input type="text" value="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, alias facilis veniam magni velit quod ratione ducimus eaque culpa. Natus." readonly> 
+        </div>
+        </div>
+        </div>
+ 
         </div> 
-
-  <img src="background.png"  class = "image__container" style="height: 350px; width: 450px;  display: grid; margin-left:-10%;
- justify-content: end; margin-top:10%" alt="header"  class = "image"/> 
 </div>
+
         </div>
         <div class="modal fade bd-example-modal-xl"  id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
                 aria-hidden="true" style="max-height: 100vh; overflow-y: hidden;">
-
+              <main style="background:none;">
                 <div class="modal-dialog modal-xl modal-dialog-centered" style="width:950px;">
                     <div class="modal-content">
                     <div class="box">
@@ -102,7 +122,7 @@
               </div>
             </form>
 
-            <form action="index.html" autocomplete="off" class="sign-up-form">
+            <form action="index.html" autocomplete="off" class="sign-up-form" id="sign-up-mode">
               <div class="logo">
                 <img src="./img/logo.png" alt="easyclass" />
               </div>
@@ -157,29 +177,55 @@
             </form>
           </div>
 
-          <div class="carousel">
-            <div class="images-wrapper">
-              <img src="Cimage1.png"  style="width: 550px; height:450px; "class="image img-1 show" alt="" />
-              <img src="Cimage2.png" style="width: 550px; height:450px; margin: -40px; margin-left:20px"class="image img-2" alt="" />
-              <img src="Cimage3.png" class="image img-3" alt="" />
+         <!-- carousel slide interval and disables the automatic pause ng carousel -->
+         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
+            data-bs-pause="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
 
-            <div class="text-slider">
-              <div class="text-wrap">
-                <div class="text-group">
-                  <h2>Choose your own adventure</h2>
-                  <h2>Customize as you like</h2>
-                  <h2>This goal is on track.</h2>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row featurette">
+                        <div class="col-md-12 text-center">
+                        
+                            <img src="{{ asset('Cimage1.png') }}" alt="first-img"  style="  margin-top: 10%;
+  height: 450px;width:500px;"
+                                class="">
+                                <p style="font-weight: 800; font-size:large;">Choose your own adventure</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-
-              <div class="bullets">
-                <span class="active" data-value="1"></span>
-                <span data-value="2"></span>
-                <span data-value="3"></span>
-              </div>
+                <div class="carousel-item">
+                    <div class="row featurette">
+                        <div class="col-md-12 text-center">
+                            <img src="{{ asset('Cimage2.png') }}" alt="third-img" style="  margin-top: 10%;
+  height: 450px;width:500px;;" 
+                                class="d-block ">
+                                <p style="font-weight: 800; font-size:large;">Customize as you like</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row featurette">
+                        <div class="col-md-12 text-center">
+                            <img src="{{ asset('Cimage3.png') }}" alt="third-img"style="  margin-top: 10%;
+  height: 450px;
+  width:500px;"
+                                class="d-block">
+                                <p style="font-weight: 800; font-size:large;">This goal is on track.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+</div>
+
+
         </div>
       </div>
 </div>
@@ -189,6 +235,7 @@
     <script src="app.js"></script>
 
                     </div>
+              </main>
                  </div>
 </div>
         <script>
