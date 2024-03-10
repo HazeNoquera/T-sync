@@ -196,7 +196,11 @@ nav {
       left: 120px;
       transition: 0.8s;
       top: 40px;
-      background:#4861ee ;
+      border-radius: 15px;
+      border-style:solid;
+      border-color: #4861ee;
+      background:transparent;
+      padding-left: 5px;
       }
 
       

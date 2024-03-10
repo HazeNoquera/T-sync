@@ -51,7 +51,7 @@
         </div>
         <div class="image__container image2" style="width:fit-content;height:fit-content;margin-left: -10px;">
         <img src="search.png" class = "image__container"   alt="header"   class = "image"/>
-        <input type="text" value="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, alias facilis veniam magni velit quod ratione ducimus eaque culpa. Natus." readonly> 
+        <input type="text" placeholder=" Search Here" value=""> 
         </div>
         </div>
         <H5 style="margin-left: 12%; margin-top:-10px;margin-bottom:10%">TEAMWORK</H5>
