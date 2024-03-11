@@ -70,7 +70,7 @@ nav {
   background-color: var(--primary-color-dark);
 }
 
-.container {
+._container {
   max-width: var(--max-width);
   margin-right: 5%;
   margin-left: 5%;
