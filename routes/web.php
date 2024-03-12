@@ -25,4 +25,7 @@ Route::get('/homepage', function () {
     return view('homepage');
 });
 
+Route::get('Project Management', function () {
+    return view('Project Management');
+});
 

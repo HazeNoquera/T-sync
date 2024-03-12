@@ -57,7 +57,7 @@
         <div style="margin-top:10%">
         <div class="row" style="gap: -2px;" >
         <div class="image__container image1" style="width:fit-content;height:fit-content;margin-right: -10px;">
-        <input type="text" value="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, alias facilis veniam magni velit quod ratione ducimus eaque culpa. Natus." readonly> 
+        <input type="text" value="-------" readonly> 
         <img src="Handshake.png" class = "image__container"    alt="header"   class = "image"/>
         
         </div>
@@ -69,12 +69,14 @@
         <H5 style="margin-left: 12%; margin-top:-10px;margin-bottom:10%">TEAMWORK</H5>
         <div class="row" style="gap: -2px;">
         <div class="image__container image3" style="width:fit-content;height:fit-content;margin-top:-10%;margin-right: -10px;">
+        <a href ="Project Management" >
         <img src="bulb.png" class = "image__container"   alt="header"   class = "image"/>
-        <input type="text" value="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, alias facilis veniam magni velit quod ratione ducimus eaque culpa. Natus." readonly> 
+        </a>
+        <input type="text" value="You may also be interested in." readonly> 
         </div>
         <div class="image__container image4" style="width:fit-content;height:fit-content;margin-top:-10%; margin-left: -10px;">
         <img src="settings.png" class = "image__container"   alt="header"   class = "image"/>
-        <input type="text" value="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, alias facilis veniam magni velit quod ratione ducimus eaque culpa. Natus." readonly> 
+        <input type="text" value="Settings." readonly> 
         </div>
         </div>
         </div>
@@ -260,7 +262,7 @@
 <div class="row justify-content-between">
 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
 <footer class="container">
-<p style="color: #3e556f;">&copy; 2024 Crackers Software Solutions. &middot; <a href="#" style="color: #3e556f;">Privacy</a> &middot; <a href="#" style="color: #3e556f;">Terms</a></p>
+<p style="color: #3e556f;">&copy; 2024 T-Sync. &middot; <a href="#" style="color: #3e556f;">Privacy</a> &middot; <a href="#" style="color: #3e556f;">Terms</a></p>
 </footer>
 
 <div class="credits">

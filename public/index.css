@@ -175,6 +175,7 @@ nav {
       right: 140px;
       transition: 0.8s;
       top: 40px;
+      color:#ffffff;
       background:#4861ee ;
       }
 
@@ -194,6 +195,7 @@ nav {
       font-weight: 500;
       position: absolute;
       left: 120px;
+      color:#ffffff;
       transition: 0.8s;
       top: 40px;
       border-radius: 15px;
@@ -220,6 +222,7 @@ nav {
         right: 140px;
         transition: 0.8s;
         top: 40px;
+        color:#ffffff;
         background:#4861ee ;
         }
 
